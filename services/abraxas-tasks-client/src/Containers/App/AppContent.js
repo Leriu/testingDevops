@@ -141,7 +141,7 @@ export default class extends React.Component {
               fontWeight: "bold",
               marginBottom: "7px"
             }}
-          > Mis tareas </div>
+          > Mis tareas del booootcamp!!! :D </div>
           {TasksGridContainer({...this.state.filter, onClick: (task) => this.setState({selectedTask: task})})}
         </Content>
       </ApolloProvider>
